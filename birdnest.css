@@ -1,0 +1,76 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+  	background-color: black;
+
+}
+ul{
+	font-size:10pt;
+}
+
+img{
+/*	border-style: solid;
+	border-width: 5px;
+	border-color: grey;*/
+
+	max-width:100%;
+	max-height:100%;
+	object-fit: contain;
+}
+iframe{
+/*	border-style: solid;
+	border-width: 5px;
+	border-color: grey;
+*/
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container{
+	padding: 50px;
+    background: linear-gradient(to bottom right, #66b1e8, #c1e866); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:750px;
+	max-height:100%;   
+}
+.content{
+
+    border-style: solid;
+	border-width: 5px;
+	object-fit: contain;
+	overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 650px;
+ }
+
+#cam{
+	max-width:100%;
+	max-height:100%;
+}
+#timestamp{
+}
+#ResourceList{
+	border-style: solid;
+	border-width: 5px;
+	object-fit: contain;
+	overflow: hidden;
+    width: 100%;
+    height: 100%;
+ }
+div.gMap{
+	position: relative;
+    overflow: hidden;
+}
+#EndGame{
+	background: initial;
+	background-color: grey;
+	padding: 20px;
+}
+#EndGameText{
+	padding-right: 20px;
+	text-align: right;
+	font-size: 12pt;
+}
